@@ -1,0 +1,22 @@
+git init for respository.
+
+git status for checking status.
+
+git add . , git add.file name , git add --a for adding files.
+
+git log user details with work done by him.
+
+git commit -m"message"  for commiting(snapshots).
+
+rm -rf .git for stop tracing particular file/folder by completely deleting contents present in that folder by deleting .git file(git repository).
+
+git clone make directory clone.
+ 
+pwd for checking the directory we are working with
+
+ls for checking contents present in that folder
+
+cd for changing directories
+
+suppose we make git.log file or we have some log files present in folder,we can ignore that files by making .gitignore  file which we write the file name to ignore/not shown in status , if we want to ignore all log files then type *.log in .gitignore file  and write dir/ for ignoring git directory , for outer dir write /dir/  , git don't show track folder 
+
